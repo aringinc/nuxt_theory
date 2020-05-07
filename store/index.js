@@ -8,6 +8,12 @@ export const actions = {
     commit
   }) {
     commit('clearToken')
+  },
+  async nuxtServerInit({
+    dispatch
+  }) {
+    console.log('!!!')
+    await dispatch('users/fetchUsers')
   }
 }
 
