@@ -1,0 +1,19 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "My terrific Nuxt.js project",
+  "author": "Shumylo Volodymyr",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
+    "bootstrap": "^4.4.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
